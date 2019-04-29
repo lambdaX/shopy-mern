@@ -1,0 +1,96 @@
+
+body {
+  font-family: Lato;
+}
+main > h1{
+  padding: 20px;
+}
+a {
+    color: #007bff;
+    text-decoration: none;
+    background-color: transparent;
+    -webkit-text-decoration-skip: objects;
+}
+
+.card {
+    position: relative;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 1px solid rgba(0, 0, 0, 0.125);
+    border-radius: 0.25rem;
+}
+.card-shop {
+    margin-bottom: 1rem;
+}
+
+.img-wrap {
+    text-align: center;
+    display: block;
+}
+.card-shop .img-wrap {
+    border-radius: 0.2rem 0.2rem 0 0;
+    overflow: hidden;
+    position: relative;
+    height: 220px;
+    text-align: center;
+}
+.card .img-wrap {
+    overflow: hidden;
+}
+
+.card-shop .title {
+    margin-top: 0;
+}
+.card-shop .info-wrap {
+    overflow: hidden;
+    padding: 15px;
+    border-top: 1px solid #eee;
+}
+.card-shop .img-wrap img {
+    max-height: 100%;
+    max-width: 100%;
+    min-height: 220px;
+    width: auto;
+    display: inline-block;
+    -o-object-fit: contain;
+    object-fit: contain;
+}
+
+.card-shop .title {
+    margin-top: 0;
+}
+.card-shop .action-wrap {
+    padding-top: 4px;
+    margin-top: 4px;
+}
+
+.card-shop:hover {
+    -webkit-box-shadow: 0 4px 15px rgba(153, 153, 153, 0.3);
+    box-shadow: 0 4px 15px rgba(153, 153, 153, 0.3);
+    -webkit-transition: .5s;
+    transition: .5s;
+}
+.card-shop:after {
+    content: "";
+    display: table;
+    clear: both;
+    visibility: hidden;
+}
+h4, .h4 {
+    font-size: 1.5rem;
+}
+h5, .h5 {
+    font-size: 1.25rem;
+}
+.shop-city {
+  color:#333;
+} 
